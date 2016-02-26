@@ -2,7 +2,9 @@
 Elasticsearch geo distance plugin. More close more score.
 
 It works like in-built "geo_distance" query. There are 2 differences:
+
 1) score isn't 0 or 1. It's in range (0, 1]
+
 2) you can specify a function that calculates a score: "linear" (default), "cosinus", "x2"
 
 Versions
@@ -34,13 +36,13 @@ Install it like so for Elasticsearch 2.2.x:
 
 Screenshots
 ------------
-####cluster overview
+####linear (default)
 ![cluster overview](imgs/linear.png)
 
-####cluster overview
+####cosinus
 ![cluster overview](imgs/cosinus.png)
 
-####cluster overview
+####x^2
 ![cluster overview](imgs/x^x.png)
 
 
