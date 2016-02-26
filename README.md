@@ -1,4 +1,4 @@
-# es_geo_adaptive_distance
+# Elasticsearch geo_adaptive_distance query
 Elasticsearch geo distance plugin. More close more score.
 
 It works like in-built "geo_distance" query. There are 2 differences:
@@ -10,9 +10,9 @@ It works like in-built "geo_distance" query. There are 2 differences:
 Versions
 ------------
 
-| elasticsearch version | latest version  |
-| --------------------- | --------------- |
-| 2.2                   | v2.2.0          |
+| elasticsearch version | latest version  | Download link                                                |
+| --------------------- | --------------- | ------------------------------------------------------------ |
+| 2.2                   | v2.2.0          | https://drive.google.com/file/d/0B0KZi9wFphLXZWNrb0ZUZ09vUmc |
 
 Installation
 ------------
